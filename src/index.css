@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+.movie {
+  max-width: 300px;
+  height: 400px;
+  object-fit: cover;
+  transition: all 0.3s;
+}
